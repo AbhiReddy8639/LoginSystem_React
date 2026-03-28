@@ -1,0 +1,87 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 999;
+}
+
+.modal-box {
+  background: white;
+  width: 420px;
+  padding: 25px;
+  border-radius: 12px;
+
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+  animation: pop 0.2s ease;
+
+  font-family: Arial, sans-serif;
+}
+
+@keyframes pop {
+  from { transform: scale(0.95); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+
+/* Headings */
+.modal-box h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Inputs */
+.modal-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Buttons */
+.modal-box button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+
+  border: none;
+  border-radius: 6px;
+  background: #0a58ca;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.modal-box button:hover {
+  background: #084298;
+}
+
+/* Links row */
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 13px;
+  cursor: pointer;
+  color: #0a58ca;
+}
+
+.links span:hover {
+  text-decoration: underline;
+}
+
+/* Error text */
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: center;
+}

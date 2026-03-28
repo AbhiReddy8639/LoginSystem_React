@@ -1,0 +1,74 @@
+.home-page {
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+/* TOP BAR */
+.top-bar {
+  height: 120px;
+  background: #1e6fff;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 35px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* LEFT ROLE */
+.top-left {
+  font-size: 16px;
+}
+
+/* RIGHT */
+.top-right {
+  position: relative;
+}
+
+/* PROFILE AREA */
+.profile-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+/* ICON */
+.profile-icon {
+  font-size: 20px;
+}
+
+/* TIME */
+.time-text {
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+/* DROPDOWN */
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 45px;
+
+  background: white;
+  color: #333;
+
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+
+  min-width: 120px;
+  overflow: hidden;
+}
+
+.dropdown-menu div {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dropdown-menu div:hover {
+  background: #f1f3f6;
+}

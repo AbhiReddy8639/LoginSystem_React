@@ -1,0 +1,23 @@
+.register-box {
+  width: 320px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.register-box input {
+  padding: 8px;
+}
+
+.register-box button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.message {
+  color: green;
+  font-weight: bold;
+}
